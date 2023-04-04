@@ -385,14 +385,13 @@ footer {
 
 /* Footer Bottom */
 .footer-bottom {
-    padding-bottom: 64px;
+    padding-bottom: 3rem;
 } 
 
 .footer-wrapper-bottom {
     justify-content: space-between;
-    height: 60px;
     border-top: 2px solid var(--main-bg-section);
-    margin-top: 1.2rem;
+    padding-top: 2rem;
 }
 
     .footer-logo {
