@@ -272,11 +272,30 @@ header {
         color: var(--color-title);
     }
 
-.special-image-content > img {
-    width: 100%;
-    object-fit: cover;
-    margin-top: 16px;
+    .special-image-content > img {
+        width: 100%;
+        object-fit: cover;
+        margin-top: 16px;
+    }
+
+.special-btn-call-action {
+    flex-direction: column;
+    row-gap: 2rem;
 }
+
+    .special-btn-call-action > 
+    .btn-large:only-of-type {
+        color: var(--color-white);
+        background-color: var(--btn-lblue);
+    }
+
+    .special-btn-call-action > h3 {
+        font-weight: var(--fweight-headline-title);
+        font-size: 1.5rem;
+        color: var(--color-title);
+    }
+
+
 
 /* Footer Section   */
 .footer-top {
@@ -299,6 +318,7 @@ header {
         background-color: var(--column-bg-color);
         border: 2px dashed white;
     }
+
 
 .footer-bottom {
     background-color: var(--foot-bg-color);
