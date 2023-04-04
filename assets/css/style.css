@@ -207,7 +207,6 @@ footer {
 
 /* Main Section */
 .content-wrapper {
-    overflow: hidden;
     gap: 4rem;
     align-items: flex-start;
 }
@@ -245,7 +244,7 @@ footer {
 }
 
 /* Adavanced Selector */
-.main-content:nth-child(2) {
+.main-content:nth-of-type(even) {
     background-color: var(--main-bg-section);
 }
 
@@ -254,6 +253,14 @@ footer {
     flex-direction: row-reverse;
 }
 
+    /* Waves Section */
+    .wave-container {
+        background-color: transparent;
+    }
+    
+    .wave-container:nth-of-type(even) {
+        rotate: 180deg;
+    }
 
 
 /* Special Section */
@@ -333,7 +340,7 @@ footer {
     .footer-columns-content {
         align-items: flex-start;
         width: 70%;
-        gap: 2rem;
+        gap: 3rem;
     }
 
     .column-links{
@@ -364,13 +371,13 @@ footer {
     padding-bottom: 64px;
 } 
 
-    .footer-wrapper-bottom {
-        justify-content: space-between;
-        height: 60px;
-    }
+.footer-wrapper-bottom {
+    justify-content: space-between;
+    height: 60px;
+}
 
-    .btn {
-        color: white;
-        padding: 6px;
-    }
+.btn {
+    color: white;
+    padding: 6px;
+}
 
