@@ -71,7 +71,7 @@ header {
 }
 
 .wrapper-space {
-    padding: 5rem 0;
+    padding: 10rem 0;
 }
 
 .border-dash {
@@ -90,6 +90,7 @@ header {
         font-size: 20px;
         padding: 16px 32px;
     }
+
 
 
 /* Header Section */
@@ -135,6 +136,9 @@ header {
         color: var(--color-black);
         background-color: var(--color-white);
     }
+
+
+
 
 /* Hero Section */
 .hero {
@@ -192,34 +196,59 @@ header {
     }
 
 
+
+
 /* Main Section */
 .content-wrapper {
-    height: 400px;
     overflow: hidden;
+    gap: 2rem;
+    align-items: flex-start;
 }
 
 .text-content {
     background-color: var(--cont-bg-primary);
-    height: 400px;
-    width: calc(100% - 40%);
+    width: 40%;
 }
 
 .image-content {
     background-color: var(--cont-bg-secondary);
-    height: 400px;
-    width: 40%;
+    width: 60%;
+}
+
+.main-img-sect {
+    width: 95%;
 }
 
 .main-content:nth-child(2) {
     background-color: var(--main-bg-section);
 }
 
+.text-module-area {
+    flex-direction: column;
+    row-gap: 1rem;
+}
+
+.main-module-title {
+    font-size: 3.5rem;
+    color: var(--color-title);
+}
+
+.main-module-parag {
+    margin-top: 24px;
+    font-size: 1.3rem;
+    line-height: 1.625;
+    color: var(--color-title);
+    font-weight: var(--fweight-secondary);
+}
+
+
 /* Adavanced Selector */
 .main-content:nth-child(2) >
 .content-wrapper >
 .text-content {
-    order: 2;
+    order: 3;
 }
+
 
 /* Special Section */
 .special {
