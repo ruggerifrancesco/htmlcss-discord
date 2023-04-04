@@ -317,10 +317,12 @@ footer {
 .footer-wrapper-top {
     align-items: flex-start;
     margin-bottom: 40px;
+    gap: 5rem;
 }
 
     .footer-aside {
         flex-direction: column;
+        align-items: flex-start;
         height: 500px;
         width: 30%;
         font-size: 2rem;
@@ -328,10 +330,15 @@ footer {
         font-weight: var(--fweight-headline-title);
     }
 
+    .footer-columns-content {
+        align-items: flex-start;
+        width: 70%;
+        gap: 2rem;
+    }
+
     .column-links{
         /* Added calc for divide columns in 4 */
         width: calc(70% / 4);
-        justify-content: flex-start;
     }
 
     .list-module-content {
