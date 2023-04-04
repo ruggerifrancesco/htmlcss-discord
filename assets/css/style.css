@@ -146,11 +146,51 @@ header {
 }
 
 .hero-carousel {
+    flex-direction: column;
     background-color: var(--carousel-bg-color);
-    height: 400px;
     flex-basis: 100%;
     margin: 0 70px;
 }
+
+.hero-text-area {
+    text-align: center;
+}
+
+    /* Hero Text Area Section */
+    .hero-text-area > h1 {
+        font-weight: 800;
+        font-size: 56px;
+        color: var(--btn-white);
+        text-transform: uppercase;
+    }
+
+    .hero-text-area > p {
+        margin-top: 40px;
+        font-size: 20px;
+        font-weight: var(--fweight-secondary);
+        line-height: 1.625;
+        color: var(--color-white);
+    }
+
+    /* Hero Btn Section */
+    .hero-btn-call-action {
+        justify-content: center;
+        gap: 2.2rem;
+        margin-top: 30px;
+    }
+
+    .hero-btn-call-action > 
+    .btn-large:nth-child(1) {
+        color: var(--btn-graphite);
+        background-color: var(--color-white);
+    }
+
+    .hero-btn-call-action > 
+    .btn-large:nth-child(2) {
+        color: var(--color-white);
+        background-color: var(--btn-graphite);
+    }
+
 
 /* Main Section */
 .content-wrapper {
