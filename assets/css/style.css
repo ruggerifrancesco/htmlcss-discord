@@ -70,7 +70,7 @@ footer {
     width: 80%;
     max-width: 1200px;
     /* Can't go anywhere under 400pixels  */
-    min-width: 400px;
+    min-width: 700px;
 }
 
 .flex-center {
@@ -257,7 +257,7 @@ footer {
     .wave-container {
         background-color: transparent;
     }
-    
+
     .wave-container:nth-of-type(even) {
         rotate: 180deg;
     }
