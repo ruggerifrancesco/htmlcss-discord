@@ -30,7 +30,8 @@
         --font-primary: 'Noto Sans', sans-serif;
         
         /* Font Weight */
-        --fweight-parag: 300;
+        --fweight-primary: 300;
+        --fweight-secondary: 500;
         --fweight-headline-title: 800;
         --fweight-btn: 200;
 }
@@ -39,12 +40,26 @@
 
 /* Principal Main Tags */
 body {
-    font-family: sans-serif;
+    font-family: var(--font-primary);
+    font-weight: var(--fweight-primary);
+}
+
+a {
+    text-decoration: none;
+    color: var(--color-white);
+    font-weight: var(--fweight-secondary);
+}
+
+header {
+    background-color: var(--header-bg-principal);
+    background-image: url(../img/jumbo.png);
+    background-repeat: none;
+    background-size: cover;
 }
 
 .page-center {
     margin: 0 auto;
-    width: 60%;
+    width: 80%;
     max-width: 1200px;
     /* Can't go anywhere under 400pixels  */
     min-width: 400px;
@@ -60,17 +75,32 @@ body {
 }
 
 .border-dash {
-    border: 2px dashed black;
+    border: 2px dashed lime;
 }
+
+    /* Buttons Section */
+    .btn-small {
+        border-radius: 40px;
+        font-size: 14px;
+        padding: 7px 16px;
+    }
+
+    .btn-large {
+        border-radius: 28px;
+        font-size: 20px;
+        padding: 16px 32px;
+    }
+
 
 /* Header Section */
 .nav {
-    height: 80px;
+    padding-top: 2rem;
     background-color: var(--head-bg-color);
 }
 
 .nav-wrapper {
     background-color: var(--nav-bg-color);
+    border: 2px dashed red;
 }
 
     .nav-list-container{
@@ -83,21 +113,27 @@ body {
             width: 100%;
             list-style: none;
             gap: 2rem;
-            padding: 8px 5px;
+            /* padding: 8px 5px; */
         }
 
     .logo {
         display: flex;
         justify-content: flex-start;
         flex: 1 1 20%;
-        padding: 8px 5px;
+        /* padding: 8px 5px; */
+        cursor: pointer;
     }
 
     .login {
         display: flex;
         justify-content: flex-end;
         flex: 1 1 20%;
-        padding: 8px 5px;
+        /* padding: 8px 5px; */
+    }
+
+    .btn-login {
+        color: var(--color-black);
+        background-color: var(--color-white);
     }
 
 /* Hero Section */
