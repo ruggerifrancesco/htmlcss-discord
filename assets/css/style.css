@@ -237,18 +237,17 @@ header {
     font-weight: var(--fweight-secondary);
 }
 
-
 /* Adavanced Selector */
 .main-content:nth-child(2) {
     background-color: var(--main-bg-section);
 }
 
-section.main-content:nth-child(2) >
-.content-wrapper >
-.image-content >
-.text-content:nth-child(2) {
-    order: 2;
+.main-content:nth-child(2)>
+.content-wrapper {
+    flex-direction: row-reverse;
 }
+
+
 
 /* Special Section */
 .special {
