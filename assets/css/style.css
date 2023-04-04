@@ -317,15 +317,21 @@ footer {
 
     .footer-aside {
         height: 500px;
-        width: 40%;
+        width: 30%;
         border: 3px dashed black;
     }
 
     .column-links{
         height: 500px;
         /* Added calc for divide columns in 4 */
-        width: calc(60% / 4);
+        width: calc(70% / 4);
         border: 2px dashed white;
+        justify-content: flex-start;
+    }
+
+    .list-module-content {
+        flex-direction: column;
+        align-items: flex-start;
     }
 
 
