@@ -316,7 +316,9 @@ footer {
 
 
 
-/* Footer Section   */
+/* -- Footer Section -- */
+
+/* Footer Top */
 .footer-top {
     padding-top: 80px;
 }
@@ -331,6 +333,9 @@ footer {
         align-items: flex-start;
         height: 500px;
         width: 30%;
+    }
+
+    .footer-aside > h3 {
         font-size: 2rem;
         color: var(--btn-lblue);
         font-weight: var(--fweight-headline-title);
@@ -364,7 +369,21 @@ footer {
         color: var(--btn-lblue);
     }
 
+    .social-list {
+        color: var(--color-white);
+        padding-top: 1.5rem;
+        width: 100%;
+        gap: 2rem;
+    }
 
+    .fa-brands {
+        cursor: pointer;
+        color: var(--color-white);
+        font-size: 1.6rem;
+    }
+    
+
+/* Footer Bottom */
 .footer-bottom {
     padding-bottom: 64px;
 } 
@@ -373,15 +392,15 @@ footer {
     justify-content: space-between;
     height: 60px;
     border-top: 2px solid var(--main-bg-section);
-    padding-top: 1.2rem;
+    margin-top: 1.2rem;
 }
 
-.footer-logo {
-    cursor: pointer;
-}
+    .footer-logo {
+        cursor: pointer;
+    }
 
-.btn-register {
-    color: var(--color-white);
-    background-color: var(--btn-lblue);
-}
+    .btn-register {
+        color: var(--color-white);
+        background-color: var(--btn-lblue);
+    }
 
