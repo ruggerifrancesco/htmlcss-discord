@@ -7,7 +7,7 @@
 
 /* Root Variables Storage */
 :root {
-    /* Containers Main Colors */
+    /* -- Root Colors -- */
     --color-white: #ffffff;
     --color-black: #000000;
 
@@ -25,6 +25,14 @@
     --btn-lblue: #8ea1e1;
     --btn-white: #ffffff;
     --btn-graphite: #23272a;
+
+        /* -- Root Fonts --*/
+        --font-primary: 'Noto Sans', sans-serif;
+        
+        /* Font Weight */
+        --fweight-parag: 300;
+        --fweight-headline-title: 800;
+        --fweight-btn: 200;
 }
 
 /* ---- CSS Structure Begin ----  */
