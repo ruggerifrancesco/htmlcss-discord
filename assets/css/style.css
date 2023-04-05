@@ -311,7 +311,7 @@ footer {
         background-image: url(../svg/stars.svg);
         background-repeat: no-repeat;
         background-size: contain;
-        padding: 2.2rem 1.2rem 0 1.2rem;
+        padding: 2.2rem 1.2rem 0;
         width: 60%;
     }
 
