@@ -250,7 +250,7 @@ footer {
     /* Waves Section */
     .wave-container {
         background-color: transparent;
-        background-position: bottom;
+        background-size: cover;
     }
 
     .wave-container:nth-of-type(even) {
