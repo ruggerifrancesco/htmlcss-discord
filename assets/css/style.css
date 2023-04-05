@@ -128,10 +128,8 @@ footer {
     } 
 
         .nav-list {
-            display: flex;
-            justify-content: center;
+            justify-content: space-evenly;
             width: 100%;
-            gap: 2rem;
             padding: 8px 5px;
         }
 
